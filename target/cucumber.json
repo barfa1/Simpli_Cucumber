@@ -1,0 +1,555 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Open the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1840847475,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has navigated on login page",
+            "match": {
+              "location": "LoginStepDefs.user_has_navigated_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-19T10:00:10.924Z",
+        "before": [
+          {
+            "result": {
+              "duration": 937761156,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Positive login Scenario",
+        "description": "",
+        "id": "login-feature;positive-login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 68328123,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 445277813,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter correct username and password",
+            "match": {
+              "location": "LoginStepDefs.user_enter_correct_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 645154552,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginStepDefs.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 382404,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be navigated to the Homepage",
+            "match": {
+              "location": "LoginStepDefs.user_should_be_navigated_to_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1805001575,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has navigated on login page",
+            "match": {
+              "location": "LoginStepDefs.user_has_navigated_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-19T10:00:14.886Z",
+        "before": [
+          {
+            "result": {
+              "duration": 696497697,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Positive Login Scenario",
+        "description": "",
+        "id": "login-feature;positive-login-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 71684222,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 460357160,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enter correct username \"Asc@gmail.com\" and password \"Aytr1@edhj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Asc@gmail.com",
+                  "offset": 29
+                },
+                {
+                  "val": "Aytr1@edhj",
+                  "offset": 58
+                }
+              ],
+              "location": "LoginStepDefs.user_enter_correct_username_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 676918442,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginStepDefs.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202581,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should be navigated to the Homepage",
+            "match": {
+              "location": "LoginStepDefs.user_should_be_navigated_to_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1962582439,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has navigated on login page",
+            "match": {
+              "location": "LoginStepDefs.user_has_navigated_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-19T10:00:18.601Z",
+        "before": [
+          {
+            "result": {
+              "duration": 476279739,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setup()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Positive Login Scenario",
+        "description": "",
+        "id": "login-feature;positive-login-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 68160054,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 468809736,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enter correct username \"edfa@gmail.com\" and password \"Ayg133@dhj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "edfa@gmail.com",
+                  "offset": 29
+                },
+                {
+                  "val": "Ayg133@dhj",
+                  "offset": 59
+                }
+              ],
+              "location": "LoginStepDefs.user_enter_correct_username_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 648992104,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginStepDefs.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275686,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should be navigated to the Homepage",
+            "match": {
+              "location": "LoginStepDefs.user_should_be_navigated_to_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1889454124,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has navigated on login page",
+            "match": {
+              "location": "LoginStepDefs.user_has_navigated_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-19T10:00:22.229Z",
+        "before": [
+          {
+            "result": {
+              "duration": 647155221,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setup()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Negative Login Scenario",
+        "description": "",
+        "id": "login-feature;negative-login-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 69495939,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 431860793,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enter correct username \"Asc@gmail.com\" and password \"Aytr1@edhj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Asc@gmail.com",
+                  "offset": 29
+                },
+                {
+                  "val": "Aytr1@edhj",
+                  "offset": 58
+                }
+              ],
+              "location": "LoginStepDefs.user_enter_correct_username_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 671754761,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginStepDefs.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146067048,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user should be get message \"The email or password you have entered is invalid.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The email or password you have entered is invalid.",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefs.user_should_be_get_message_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1871193503,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has navigated on login page",
+            "match": {
+              "location": "LoginStepDefs.user_has_navigated_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-19T10:00:26.088Z",
+        "before": [
+          {
+            "result": {
+              "duration": 617847987,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.setup()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Negative Login Scenario",
+        "description": "",
+        "id": "login-feature;negative-login-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 68821080,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 400395070,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enter correct username \"edfa@gmail.com\" and password \"Ayg133@dhj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "edfa@gmail.com",
+                  "offset": 29
+                },
+                {
+                  "val": "Ayg133@dhj",
+                  "offset": 59
+                }
+              ],
+              "location": "LoginStepDefs.user_enter_correct_username_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 744180218,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginStepDefs.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35838701,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user should be get message \"The email or password you have entered is invalid.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The email or password you have entered is invalid.",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefs.user_should_be_get_message_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": [
+      {
+        "name": "@LoginFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
